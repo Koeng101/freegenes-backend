@@ -1,18 +1,18 @@
-# Open Foundry API
-In Development. A Node Express Server that interfaces with the [OpenFoundry React Client](https://gitlab.com/koeng/openfoundry-js-client).
+# FreeGenes backend
+In Development. A Node Express Server that interfaces with the [FreeGenes React Client](www.example.com).
 
 ## View Client Demo
-Demo is visible at [biohacking.services](https://biohacking.services).
+(**FIX**)Demo is visible at [biohacking.services](https://biohacking.services).
 
 ## View API Demo
-The [OpenFoundry API](https://gitlab.com/koeng/openfoundry-js) Demo is visible at [api.biohacking.services](https://api.biohacking.services).
+(**FIX**)The [OpenFoundry API](https://gitlab.com/koeng/openfoundry-js) Demo is visible at [api.biohacking.services](https://api.biohacking.services).
 
 ## Install
 
 ### Clone
 From your terminal:
 ```
-git clone https://gitlab.com/koeng/openfoundry-js.git
+git clone https://github.com/Koeng101/freegenes-backend.git
 ```
 
 ### Install Modules
@@ -22,7 +22,7 @@ npm install
 
 ### Change Directory To Project
 ```
-cd openfoundry-js
+cd freegenes-backend
 ```
 
 ### Run
@@ -49,12 +49,4 @@ process.env.JWT_SECRET = 'mySuperSecretPasswordPhrase';
 process.env.NODE_ENV = 'development';
 ```
 
-## Model and route naming convention
-- Models are singular since the model a single object (VirtualPart.js)
-- Routes are plural since they are to access many models (VirtualParts.js)
 
-
-## Notes
-- Worlds.js route does not appear to have a test.
-- Virtual provenance needs to be implemented after connection with decentralized web components
-- Virtual files needs to be implemented after connection with decentralized web components
