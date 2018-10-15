@@ -1,0 +1,37 @@
+{
+  "name": "openfoundry-js",
+  "version": "0.0.1",
+  "description": "A JSON API for OpenFoundry.",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-bearer-token": "^2.1.1",
+    "jsonwebtoken": "^8.2.0",
+    "moment": "^2.21.0",
+    "mongoose": "<=4.10.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "shortid": "^2.2.13"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha -c --reporter=spec --recursive \"test/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/koeng/openfoundry-js.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://gitlab.com/koeng/openfoundry-js/issues"
+  },
+  "homepage": "https://gitlab.com/koeng/openfoundry-js#readme"
+}
